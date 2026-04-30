@@ -74,6 +74,30 @@
               <h3><a href="tel:+5521999999999">+55 (21) 9 9999-9999</a></h3>
               <p>Chame no WhatsApp ou ligue durante o horário comercial.</p>
             </div>
+
+            <div class="card contact-form-card">
+              <p class="meta">Formulário</p>
+              <h3 style="margin-bottom:14px">Envie sua mensagem</h3>
+
+              <form action="#" method="post" onsubmit="event.preventDefault(); alert('Obrigado! Sua mensagem foi enviada (demo).');">
+                <label style="display:block; margin-bottom:10px;">
+                  <span style="display:block; margin-bottom:6px; color:var(--muted);">Nome</span>
+                  <input name="name" type="text" required placeholder="Seu nome" />
+                </label>
+
+                <label style="display:block; margin-bottom:10px;">
+                  <span style="display:block; margin-bottom:6px; color:var(--muted);">E-mail</span>
+                  <input name="email" type="email" required placeholder="voce@exemplo.com" />
+                </label>
+
+                <label style="display:block; margin-bottom:14px;">
+                  <span style="display:block; margin-bottom:6px; color:var(--muted);">Mensagem</span>
+                  <textarea name="message" required rows="4" placeholder="Digite sua mensagem"></textarea>
+                </label>
+
+                <button type="submit">Enviar</button>
+              </form>
+            </div>
           </div>
         </section>
 
