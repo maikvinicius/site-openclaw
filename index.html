@@ -77,25 +77,25 @@
 
             <div class="card contact-form-card">
               <p class="meta">Formulário</p>
-              <h3 style="margin-bottom:14px">Envie sua mensagem</h3>
+              <h3 class="faq-title">Envie sua mensagem</h3>
 
-              <form action="#" method="post" onsubmit="event.preventDefault(); alert('Obrigado! Sua mensagem foi enviada (demo).');">
-                <label style="display:block; margin-bottom:10px;">
-                  <span style="display:block; margin-bottom:6px; color:var(--muted);">Nome</span>
+              <form class="contact-form" action="#" method="post" onsubmit="event.preventDefault(); alert('Obrigado! Sua mensagem foi enviada (demo).');">
+                <label class="field">
+                  <span class="field-label">Nome</span>
                   <input name="name" type="text" required placeholder="Seu nome" />
                 </label>
 
-                <label style="display:block; margin-bottom:10px;">
-                  <span style="display:block; margin-bottom:6px; color:var(--muted);">E-mail</span>
+                <label class="field">
+                  <span class="field-label">E-mail</span>
                   <input name="email" type="email" required placeholder="voce@exemplo.com" />
                 </label>
 
-                <label style="display:block; margin-bottom:14px;">
-                  <span style="display:block; margin-bottom:6px; color:var(--muted);">Mensagem</span>
+                <label class="field field-textarea">
+                  <span class="field-label">Mensagem</span>
                   <textarea name="message" required rows="4" placeholder="Digite sua mensagem"></textarea>
                 </label>
 
-                <button type="submit">Enviar</button>
+                <button class="contact-submit" type="submit">Enviar</button>
               </form>
             </div>
           </div>
